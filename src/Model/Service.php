@@ -3,6 +3,7 @@
 namespace CthulhuDen\Portainer\Model;
 
 /**
+ * @property-read string $ID
  * @property-read ServiceSpec $Spec
  */
 class Service extends AbstractModel
