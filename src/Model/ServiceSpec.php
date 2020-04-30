@@ -4,6 +4,7 @@ namespace CthulhuDen\Portainer\Model;
 
 /**
  * @property-read ServiceSpecMode $Mode
+ * @property-read TaskTemplate $TaskTemplate
  * @property-read string $Name
  */
 class ServiceSpec extends AbstractModel
@@ -12,6 +13,7 @@ class ServiceSpec extends AbstractModel
     {
         return [
             'Mode' => ServiceSpecMode::class,
+            'TaskTemplate' => TaskTemplate::class,
         ];
     }
 }
